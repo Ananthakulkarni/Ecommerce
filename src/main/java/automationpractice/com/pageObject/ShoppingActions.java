@@ -1,5 +1,5 @@
 package automationpractice.com.pageObject;
-
+//page elements
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

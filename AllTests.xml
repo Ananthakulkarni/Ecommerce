@@ -33,7 +33,7 @@
                 <include name="signinRequest" />
                 <include name="billingAndDeliveryAddress" />
                 <include name="termsOfServiceModal" />
-                <include name="payment" />
+                <exclude name="payment" />
                 <include name="confirmOrder" />
                 <include name="checkIsOrderVisibleInOrderHistorySection" />
             </methods>

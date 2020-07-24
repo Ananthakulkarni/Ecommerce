@@ -1,5 +1,5 @@
 package automationpractice.com.pageObject;
-
+//page elements
 import java.util.List;
 
 import org.openqa.selenium.By;

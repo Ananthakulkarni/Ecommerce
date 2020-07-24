@@ -42,14 +42,7 @@ public class Utils {
 		FileUtils.copyFile(SrcFile, DestFile);
 	}
 
-	/**
-	 * 
-	 * This function will check element presence
-	 * 
-	 * @param webdriver
-	 * @param selector
-	 * 
-	 */
+	
 	public static boolean isPresent(WebDriver webdriver, By selector) {
 		// try to find element by specified selector
 		try {
