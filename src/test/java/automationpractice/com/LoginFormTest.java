@@ -22,7 +22,7 @@ public class LoginFormTest {
 	@BeforeClass
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 
 		createAccountForm = new CreateAccountForm(driver);
 		signin = new SignInForm(driver);
